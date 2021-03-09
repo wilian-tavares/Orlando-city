@@ -1,0 +1,274 @@
+body, ul, li, p  {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+:root {
+    --text-noticia: #9400d3;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 700px;
+    background: url(imagens/banner-Copia.jpg);
+}
+
+header .slogan h1 {
+    position: relative;
+    top: 150px;
+    margin-left: 50px;
+
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 6.75rem;
+    
+    color: #FFF;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+header .slogan small {
+    font-size: 2rem;
+    display: block;
+    color: #FFF;
+}
+
+header .clubes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    background: #000;
+}
+
+header .top {
+    background: rgba(124, 72, 184, 0.89);
+    height: 110px;
+
+    display: flex;
+    justify-content: center;
+}
+
+header .top a {
+    color: white;
+}
+
+header .top .logo {  
+    margin-top: -15px;
+    margin-left: 150px;
+}
+
+header .top  #menu {
+    display: flex;
+    
+}
+header .top #menu li {
+    margin: 50px;
+}
+
+header .top #menu #menu-pesquisa input {
+    height: 30px;
+}
+
+
+/* Fim Header */
+
+
+/* ******************************************************* */
+
+
+
+/* INICIO MAIN */
+
+main {
+    display: block;
+}
+ 
+main .titulo-noticia  {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+main .titulo-noticia h2 {
+    font-weight: 100;
+    color: var(--text-noticia);
+
+    border-bottom: 5px solid rgb(245, 245, 7);
+    font-size: 3.0rem;   
+}
+
+main #area-noticia  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main #area-noticia .noticia {  
+    margin: 0 40px;
+    width: 280px;
+    height: 280px;
+}
+
+
+main #information-stadium{
+    background: #9400d3;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center; 
+}
+
+
+main #information-stadium h1 {
+    font-size: 4rem;
+    color: gold;
+    font-weight: 200;
+}
+
+main #information-stadium small {
+    display: block;
+    padding-top: 20px;
+    
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 200;
+
+    text-align: center;
+}
+
+main #info-down {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+main #info-down h3 {
+    text-align: center;
+    margin: 100px;
+    font-size: 3rem;
+    
+
+    font-weight: 200;
+    color:  #9400d3; 
+}
+
+main #info-down .testo {
+    width: 70%;
+    margin: 0px  auto 100px;
+}
+main #info-down  form{
+    text-align: center;
+}
+
+main #info-down input {
+    cursor: pointer;
+    padding: 10px 50px;
+
+    font-size: 1rem;
+    margin: 0 30px;
+}
+
+main #info-down .shop {
+    background-color: #9400d3;
+    color: #fff;
+}
+
+main #info-down .register {
+    background-color: yellow ;
+    color: #000;
+}
+
+
+
+
+/* FIM MAIN */
+
+
+
+/* ******************************************************* */
+
+
+
+/* INICIO FOOTER */
+
+footer #rodape {
+    background: #171F26;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer #rodape-logo {
+    padding: 20px;
+}
+
+/* ---------POPULAR ------- */
+footer #popular {
+    padding: 20px;
+}
+
+footer #popular p {
+    color: #666;
+    font-family: Arial;
+
+    font-size: 1rem;
+}
+footer #popular small {
+    display: block;
+    color: gold;
+    
+} 
+
+/*-------Links---------*/
+
+footer #links {
+    color: #fff;
+    padding: 20px;
+}
+
+
+/*----------GET---------*/
+
+footer #get {
+    padding: 20px;
+}
+
+footer #get p {
+    color:#666;
+}
+
+footer #direitos {
+    display: flex;
+    justify-content: space-evenly;
+
+    background: #11171D;
+    padding: 20px;
+}
+
+/* FIM FOOTER */
+
+
+
+/* Formatação Expecifica */
+
+h4 {
+    color: #fff
+}
+
+footer #get a {
+    color: #fff;
+    font-size: 1rem;
+}
+
